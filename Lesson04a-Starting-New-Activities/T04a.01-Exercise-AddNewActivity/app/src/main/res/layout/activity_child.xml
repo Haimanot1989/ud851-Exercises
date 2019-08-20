@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// Do steps 2 - 5 in activity_child.xml
+// DONE (2) Change the ConstraintLayout to a FrameLayout and make appropriate adjustments
+// DONE (3) Add a TextView with an id value of @id/tv_display
+// DONE (4) Set the text to something that indicates this is default text being displayed
+// DONE (5) Make the text size a little larger
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_child"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ChildActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_display"
+        android:textSize="30sp"
+        android:text="This is default text. Hopefully it changes."/>
+</RelativeLayout>
